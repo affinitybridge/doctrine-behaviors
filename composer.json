@@ -1,0 +1,27 @@
+{
+    "name": "affinity/doctrine-behaviors",
+    "description": "",
+    "repositories": [
+      { "type": "git", "url": "https://github.com/affinitybridge/UnifikDoctrineBehaviorsBundle.git" }
+    ],
+    "authors": [
+        {
+            "name": "Tom Nightingale",
+            "email": "tom@affinitybridge.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*",
+        "unifik/doctrine-behaviors-bundle": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Affinity\\DoctrineBehaviors\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
