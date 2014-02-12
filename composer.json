@@ -16,9 +16,6 @@
         "unifik/doctrine-behaviors-bundle": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Affinity\\DoctrineBehaviors\\": "src/"
         }
